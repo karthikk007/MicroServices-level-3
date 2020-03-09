@@ -1,0 +1,19 @@
+app:
+    name: Config App
+    desc: Welcome to ${app.name}
+
+
+db:
+    connection: "{connectionString: 'http://www.xxx.com', userName: 'karthik', password: 'pass'}"
+    host: 127.0.0.1
+    port: 4000
+
+my:
+    list:
+      values: one,two,three
+    greeting: Hello Karthik Kumar
+
+server:
+    port: 8080
+
+management.endpoints.web.exposure.include: "*"
