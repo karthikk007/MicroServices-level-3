@@ -1,0 +1,4 @@
+db:
+  connection: "{connectionString: 'http://www.-test.com', userName: 'karthik-test', password: 'pass-test'}"
+  host: 127.0.0.127
+  port: 8000
